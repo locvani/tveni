@@ -1,0 +1,193 @@
+body { margin:0; background:#0a0919 url(../images/foni.jpg) repeat-x;
+	background-attachment:fixed;
+	font-family:Arial, Sylfaen; font-size:12pt; color:#000033; }
+td, p, div  { font-family:Arial, Sylfaen; font-size:12pt; }
+.bjbm {
+	text-align:justify;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: 5px 3px 12px #000000;
+	-moz-box-shadow: 5px 3px 12px #000000;
+	box-shadow: 5px 3px 12px #000000;
+   }
+.bjbq {
+	text-align:center; border:3px solid #663366;
+	-webkit-box-shadow: 5px 3px 12px #000000;
+	-moz-box-shadow: 5px 3px 12px #000000;
+	box-shadow: 5px 3px 12px #000000;
+	background: rgba(157,11,36, 0.5);
+   }
+.bjb {
+    table-layout: fixed; /* Фиксированная ширина ячеек */
+     width:300px; height:265px; /* width: 100%; Ширина таблицы */
+	text-align:center; border:1px solid #663366;
+	text-shadow: 1px 1px 1px #000;
+	background: rgba(157,11,36, 0.3);
+   }
+.bjb a  {  text-decoration:none; }
+select  { font-family:Arial, Sylfaen; font-size:11pt; }
+input { font-family:Arial, Sylfaen; font-weight:bold; font-size:11pt; color:#000033; }
+a:link { color:#000099; }
+a:visited { color:#000099; }
+a:hover { color:#FCF574; }
+.dml { font-family: Arial, Sylfaen; color: #800055; border:transparent; background-color:transparent; }
+.sim  { font-family:Arial, Sylfaen; font-size:10pt; color:#800055; }
+.my { border-top: 1px dashed #CC0066; border-right: none; border-bottom: none; border-left: none; }
+.chrdl_grn { text-shadow:1px 2px 2px #000; font-size:18pt; font-weight:bold; text-align:center; color:green; padding:5px; }
+.chrdl_rd { text-shadow:1px 2px 2px #000; font-size:20pt; font-weight:bold; text-align:center; color:red; letter-spacing:3px; padding:5px; }
+.lst { list-style-image: url(jvari.gif); font-family: Arial, Sylfaen; }
+#bb5 { background: #FFFFCC; border: 1px solid #000000; font-family: Arial, Sylfaen; color: #000033; font-size: 10pt; margin: 0px; padding: 3px 3px; position: absolute; visibility: hidden; }
+#pr  { color: purple; }
+#bl  { color: blue; }
+#rd  { color: red; }
+#gr { color:#993333; }
+#dg { color:#ff33cc; }
+.pr  { color: purple; }
+.bl  { color: blue; }
+.rd  { color: red; }
+.gry  { color: gray; }
+.gryb { color:#3E3E3E; }
+.ia  { color: #006464; text-align:center; font-size:11pt; }
+.rdc  { color:#8D0000; text-align:center; font-size:14pt; text-shadow:1px 1px 1px #000; }
+.dg { color:#ff33cc; }
+.grn { color:#030; font-size:14pt; }
+.t8 { font-size: 8pt; }
+.t10  { font-size:10pt; }
+/* axali */ 
+.shnsh { color:#333333; text-align:center; width:auto; }
+.pad-l { padding-left:1%; }
+.pad-lr { padding-left:2%; padding-top:2%; padding-right:2%; text-align:justify; }
+.marg { padding-top:2%; padding-left:2%; padding-right:2%; text-align:center; }
+.jast { text-align:justify; }
+/* marj navigacia*/
+.zb { top: -23px; right: 3px; z-index: 999; position: fixed; }
+.zb ul { list-style-type:none; }
+.zb ul li { padding-top:55px; margin:3px; font-size:12pt; }
+.zb ul li a { color:#F5CB5A; float:right; text-align:right; display:block; position:relative; padding:3px;
+ text-decoration:none;
+background-color:#000066;
+	background:rgba(255,255,255,0.1);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 2px 5px #000000;
+	-moz-box-shadow: 0px 2px 5px #000000;
+	box-shadow: 0px 2px 5px #000000;
+	text-shadow: 1px 2px 2px #000;
+	border: 1px solid rgba(157,11,36, 0.5); }
+.zb ul li a:hover { color:#FCF574;
+background-color:#000099;
+	background:rgba(255,255,255,0.33);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	text-shadow: 1px 2px 2px #000;
+	border: 1px solid rgba(255,255,255, 0.5); }
+/* --marj navigacia*/
+/*marcx navigacia*/
+.zm { top: -23px; left: -37px; z-index: 777; position: fixed; }
+.zm ul { list-style-type:none; }
+.zm ul li { padding-top:55px; margin:3px; font-size:12pt; }
+.zm ul li a { color:#F5CB5A; float:left; display:block; position:relative; padding:2px;
+ text-decoration:none;
+background-color:#000066;
+	background:rgba(255,255,255,0.1);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 2px 5px #000000;
+	-moz-box-shadow: 0px 2px 5px #000000;
+	box-shadow: 0px 2px 5px #000000;
+	text-shadow: 1px 2px 2px #000;
+	border: 1px solid rgba(157,11,36, 0.5); }
+.zm ul li a:hover { color:#FCF574;
+background-color:#000099;
+	background:rgba(255,255,255,0.33);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	text-shadow: 1px 2px 2px #000;
+	border: 1px solid rgba(255,255,255, 0.5); }
+/* --marcx navigacia*/
+.snt { background: url(../images/snt.png) no-repeat; height:300px; width: 150px; position: fixed; bottom: 0px; z-index: 5; }
+/* --axali */
+/*navigacia*/
+#nav{
+    height:33px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background:transparent url(../images/varskvla.gif) repeat-x 30px; font-size:16pt; font-weight:bold;
+}
+#nav ul{
+    height:33px;
+    list-style:none;
+    margin:6px auto 0px auto;
+    width:600px;   
+}
+#nav ul li{
+    display:block;
+    float:left;
+    margin:0px 2px;
+	padding-left:7%;
+}
+#nav a{
+	color:#F5CB5A; background-color:#000066;  background:rgba(255,255,255,0.1);
+	border: 1px solid rgba(157,11,36, 0.5);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 2px 5px #000000;
+	-moz-box-shadow: 0px 2px 5px #000000;
+	box-shadow: 0px 2px 5px #000000;
+	text-shadow: 1px 2px 2px #000;	
+    float:left;
+    padding: 0px 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav a:hover{
+	color:#ffff66; background:#000099; background:rgba(255,255,255,0.33);
+	border: 1px solid rgba(255,255,255, 0.5);
+}
+#nav a.top span, #nav a.bottom span{
+    float:left;
+    width:30px;
+    height:30px;
+}
+#nav a.top span{
+    background:transparent url(../images/mz.png) no-repeat center center;
+}
+#nav a.bottom span{
+    background:transparent url(../images/mt.png) no-repeat center center;
+}
+
+#left{
+	position:fixed;
+    float:left;
+    left:10px;
+}
+#right{
+	position:fixed;
+    float:right;
+    right:10px;
+}
+
+
+		#top{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:1%;
+			height:1px;
+		}
+		#bottom{
+			position:absolute;
+			top:100%;
+			left:0px;
+			width:1%;
+			height:100px;
+		}
+		
